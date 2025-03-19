@@ -3,6 +3,7 @@ body {
   margin: 0px;
   min-width: 0px;
   
+  
 }
 
 .audiocenter{
@@ -32,12 +33,11 @@ body {
   border-radius: 30px;
   font-weight: 700;
   font-size: 25px;
-  margin-top: 10px;
 }
 
 /* Styles for reset button */
 #reset {
-  margin-top: 20px;
+  margin-top: 10px;
   background-color: #008cba;
   cursor: pointer;
   font-size: 18px;
@@ -49,16 +49,19 @@ body {
 .scrolcolor{
   color: #804605;
   font-style: italic;
-  
+  background-color: lightgray;
+  margin: 0%;
+  padding: 5px 5px;
 }
 .tnlogo{
   text-align: center;
   background-color: lightgray;
   color: #804605;
+  margin: 0%;
+  padding: 5px 5px;
 }
 
 .wcount{
-  
   background-color: #c2daf1;
   display: flex;
   justify-content: center;
@@ -70,5 +73,14 @@ body {
 .socialmedia{
   text-align: center;
   background-color: #c2daf1;
-}
 
+}
+h1,h2,.cant{
+  margin: 0%;
+  padding: 5px 5px;
+  background-color: lightgray;
+}
+.mail{
+  margin: 0%;
+  padding: 5px 5px;
+}
