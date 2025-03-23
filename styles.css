@@ -5,7 +5,7 @@ body {
   
   
 }
-
+/* Audio tag */
 .audiocenter{
   display: flex;
   align-items: center;
@@ -14,18 +14,16 @@ body {
 }
 
 
-/* Center child elements */
-.website-counter {
+/* Center child elements */ /* .............Start.............. */
+/*.website-counter {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-
+}*/
 
 /* Styles for website counter container */
-.website-counter {
+/*.website-counter {
   background-color: #ff4957;
   height: 50px;
   width: 80px;
@@ -33,10 +31,10 @@ body {
   border-radius: 30px;
   font-weight: 700;
   font-size: 25px;
-}
+}*/
 
 /* Styles for reset button */
-#reset {
+/*#reset {
   margin-top: 10px;
   background-color: #008cba;
   cursor: pointer;
@@ -44,7 +42,8 @@ body {
   padding: 8px 20px;
   color: white;
   border: 0;
-}
+}*/
+/* .............End.............. */
 
 .scrolcolor{
   color: #804605;
@@ -84,3 +83,33 @@ h1,h2,.cant{
   margin: 0%;
   padding: 5px 5px;
 }
+
+/* Blink coding */ /* .............Start.............. */
+.blink {
+  animation: blinker .5s linear infinite;
+  position: absolute;
+  left: 90%; 
+  transform: translate(-50%, -50%);   
+  font-size: 40px; 
+  text-align: center;
+  width: 70px;
+  height: 70px;
+}
+@keyframes blinker {
+ 10% {
+      opacity: 0;
+  }
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+  background-color: #f5d106;
+  width: 100%;
+  height: 20%;
+  text-align: center;
+}
+
+.image-container img {
+  display: block;
+}
+/* .............End.............. */
