@@ -12,7 +12,14 @@ body {
   flex-direction: column;
   background-color: #c2daf1;
 }
-
+.design{
+  background: rgb(199, 169, 169); 
+  padding: 4px; 
+  width: 270px; 
+  height: 40px; 
+  border-radius: 40px; 
+  filter: invert(1);
+}
 
 /* Center child elements */ /* .............Start.............. */
 /*.website-counter {
